@@ -1,5 +1,6 @@
 let student_names = ["Kanika", "Bhuvanesh", "Vishwanath", "Lava", "Ash", "Neeraj"] //rollno of that student = index+1
-console.log(JSON.stringify(student_names))
+console.log(student_names);
+console.log(JSON.stringify(student_names)) // convert javascript object or value to strings
 student_string = student_names.join("**")
 console.log(student_string)
 let students_res = student_string.split("**")
